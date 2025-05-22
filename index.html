@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ROT13 Шифратор</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+  <h1>ROT13 Шифратор</h1>
+
+  <div class="container">
+    <div class="input-wrapper">
+      <div class="field-name" id="input-field-name">
+        <h3>Ввод:</h3>
+      </div>
+      <textarea id="input"></textarea>
+    </div>
+    <div class="output-wrapper">
+      <div class="field-name" id="output-field-name">
+        <h3>Результат:</h3>
+      </div>
+      <textarea id="output" readonly></textarea>
+    </div>
+  </div>
+
+  <button onclick="encryptText()">Зашифровать</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
